@@ -1,0 +1,70 @@
+.welcome-container {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to bottom, #fff3f3, #ffeaea);
+  min-height: 100vh;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #c40000;
+}
+
+.sub-title {
+  margin-top: -10px;
+  color: #444;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.role-card {
+  width: 290px;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.role-img {
+  width: 160px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.role-card h2 {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #b30000;
+}
+
+.btns {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-btn, .signup-btn {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background: #ff0000;
+  transition: 0.3s;
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background: #cc0000;
+}
