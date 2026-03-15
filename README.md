@@ -1,16 +1,14 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌟 Hemophilia Care Connect PlatformConnecting Patients, NGOs & Hospitals — Faster. Smarter. Together.🩸 India's first all-in-one Hemophilia Support Platform. This digital ecosystem is designed to bridge the gap between Patients, NGOs, and Hospitals. In Hemophilia care, every minute counts; this platform ensures timely access to Factor therapy to save lives.🚨 The Problem: The GapInformation Void: Patients don't know which hospital has Factor VIII or IX in stock.Fragmentation: No centralized way to find active NGOs in specific cities.Critical Delays: Patients face life-threatening delays due to a lack of real-time availability data.Isolation: Patients often feel unsupported during emergencies.✅ The SolutionA unified, real-time communication hub where patients, NGOs, and hospitals interact. No more waiting for help that is already nearby.🔗 Key Features🏥 Hospital Factor AvailabilityReal-time Tracking: Check live stock of Factor VIII, IX, and DDAVP.Location Filters: Search by city or region to find the nearest supply.🤝 NGO NetworkVerified Support: Browse and connect with NGOs in your vicinity.Direct Messaging: Send help requests directly to NGO volunteers.🧮 Smart Factor Dose CalculatorGet instant, accurate calculations for emergency treatment:Inputs: Weight (kg), Hemophilia Type (A/B), Bleeding Severity (Minor/Major).Output: Required IU dosage, number of vials, and recommended vial sizes (250/500/1000 IU).💬 Emergency AssistanceDirectly broadcast your needs to nearby hospitals and NGOs for rapid response.🛠️ Tech StackLayerTechnologyFrontendReact.js, HTML5, CSS3, Tailwind CSSBackendJava 17, Spring BootDatabaseMongoDBSecurityJWT (JSON Web Tokens), OAuth2MessagingRabbitMQ / Firebase NotificationsDevOpsDocker, GitHub Actions (CI/CD)🗺️ How It WorksCode snippetgraph LR
+P[Patient] -->|Submits Request| PL[Platform]
+PL -->|Matches by City| NGO[NGO]
+PL -->|Checks Stock| H[Hospital]
+NGO -->|Support & Guidance| P
+H -->|Factor Availability| P
+PL -->|Dose Calculation| P
+🚀 Getting StartedPrerequisitesJava 17 & Node.jsMongoDBDocker & Docker ComposeInstallation & Local SetupClone the repository:Bashgit clone https://github.com/your-username/hemophilia-care-connect.git
+cd hemophilia-care-connect
+Frontend Setup:Bashcd frontend
+npm install
+npm start
+Backend Setup (using Docker):Bashdocker-compose up --build
+👥 User Roles & AccessPatient: Search hospitals, contact NGOs, use dose calculator.NGO: Register, manage city-wise coverage, respond to patient requests.Hospital: Update factor stock, manage inventory, respond to queries.Admin: Full platform moderation and analytics.🌍 Our VisionWe dream of a future where:Every Hemophilia patient receives factor therapy on time.Hospitals and NGOs work as a connected digital ecosystem.Technology acts as a lifeline, not just a tool.🤝 ContributingContributions make the open-source community amazing!Fork the Project.Create your Feature Branch (git checkout -b feature/NewFeature).Commit your Changes (git commit -m 'Add some NewFeature').Push to the Branch (git push origin feature/NewFeature).Open a Pull Request.👨‍💻 AuthorDeveloped by: ManasRole: Java DeveloperFocus: Spring Boot • React • Docker • MongoDB⭐ If this project helps, please give it a star on GitHub!
