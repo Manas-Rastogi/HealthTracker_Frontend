@@ -1,10 +1,10 @@
 🌟 Hemophilia Care Connect PlatformConnecting Patients, NGOs & Hospitals — Faster. Smarter. Together.🩸 India's first all-in-one Hemophilia Support Platform. This digital ecosystem is designed to bridge the gap between Patients, NGOs, and Hospitals. In Hemophilia care, every minute counts; this platform ensures timely access to Factor therapy to save lives.🚨 The Problem: The GapInformation Void: Patients don't know which hospital has Factor VIII or IX in stock.Fragmentation: No centralized way to find active NGOs in specific cities.Critical Delays: Patients face life-threatening delays due to a lack of real-time availability data.Isolation: Patients often feel unsupported during emergencies.✅ The SolutionA unified, real-time communication hub where patients, NGOs, and hospitals interact. No more waiting for help that is already nearby.🔗 Key Features🏥 Hospital Factor AvailabilityReal-time Tracking: Check live stock of Factor VIII, IX, and DDAVP.Location Filters: Search by city or region to find the nearest supply.🤝 NGO NetworkVerified Support: Browse and connect with NGOs in your vicinity.Direct Messaging: Send help requests directly to NGO volunteers.🧮 Smart Factor Dose CalculatorGet instant, accurate calculations for emergency treatment:Inputs: Weight (kg), Hemophilia Type (A/B), Bleeding Severity (Minor/Major).Output: Required IU dosage, number of vials, and recommended vial sizes (250/500/1000 IU).💬 Emergency AssistanceDirectly broadcast your needs to nearby hospitals and NGOs for rapid response.🛠️ Tech StackLayerTechnologyFrontendReact.js, HTML5, CSS3, Tailwind CSSBackendJava 17, Spring BootDatabaseMongoDBSecurityJWT (JSON Web Tokens), OAuth2MessagingRabbitMQ / Firebase NotificationsDevOpsDocker, GitHub Actions (CI/CD)🗺️ How It WorksCode snippetgraph LR
-P[Patient] -->|Submits Request| PL[Platform]
-PL -->|Matches by City| NGO[NGO]
-PL -->|Checks Stock| H[Hospital]
-NGO -->|Support & Guidance| P
-H -->|Factor Availability| P
-PL -->|Dose Calculation| P
+P[Patient] --|Submits Request| PL[Platform]
+PL --|Matches by City| NGO[NGO]
+PL --|Checks Stock| H[Hospital]
+NGO --|Support & Guidance| P
+H --|Factor Availability| P
+PL --|Dose Calculation| P
 🚀 Getting StartedPrerequisitesJava 17 & Node.jsMongoDBDocker & Docker ComposeInstallation & Local SetupClone the repository:Bashgit clone https://github.com/your-username/hemophilia-care-connect.git
 cd hemophilia-care-connect
 Frontend Setup:Bashcd frontend
