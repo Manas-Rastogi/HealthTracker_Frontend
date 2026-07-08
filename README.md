@@ -19,3 +19,4 @@ Backend Setup (using Docker):Bashdocker-compose up ---build---------------------
 --------------------------------------------------- ContributingContributions make the open-source community amazing!Fork the Project.Create your Feature Branch (git checkout -b feature/NewFeature).Commit your Changes (git commit -m 'Add some NewFeature').Push to the Branch (git push origin feature/NewFeature).Open a Pull Request.👨‍💻 AuthorDeveloped by: ManasRole: Java DeveloperFocus: Spring Boot • React • Docker • MongoDB⭐ If this project helps, please give it a star on GitHub!
 ---------------------------------------------------
 ---------------------------------------------------
+---------------------------------------------------
