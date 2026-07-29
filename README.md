@@ -12,7 +12,7 @@ cd hemophilia-care-connect
 Frontend Setup:Bashcd frontend
 npm install----------------------------------------
 npm start-----------------------------------------
-Backend Setup (using Docker):Bashdocker-compose up ---build-----------------------------------------------------------------------------------------------
+Backend Setup (using Docker):Bashdocker-compose up ---build-------------------------------------------------------------------------------------------------------------------------------------------------
 👥 User Roles & AccessPatient: Search hospitals, contact NGOs, use dose calculator.NGO: Register, manage city-wise coverage, respond to patient requests.Hospital: Update factor stock, manage inventory, respond to queries.Admin: Full platform moderation and analytics.🌍 Our VisionWe dream of a future where:Every Hemophilia patient receives factor therapy on time.Hospitals and NGOs work as a connected digital ecosystem.Technology acts as a lifeline, not just a tool.🤝
 ---------------------------------------------------
 ---------------------------------------------------
