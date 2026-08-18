@@ -19,6 +19,7 @@ PL --|Dose Calculation| P
 🚀 Getting StartedPrerequisitesJava 17 & Node.jsMongoDBDocker & Docker ComposeInstallation & Local SetupClone the repository:Bashgit clone https://github.com/your-username/hemophilia-care-connect.git
 cd hemophilia-care-connect
 Frontend Setup:Bashcd frontend
+---------------------------------------------------
 npm install----------------------------------------
 npm start-----------------------------------------
 Backend Setup (using Docker):Bashdocker-compose up ---build-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
